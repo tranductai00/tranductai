@@ -33,17 +33,13 @@ h1 {
       grid-row-gap: 10px;
       margin-top: 3.6rem;
 }
-#music {
-      grid-column: 2;
-      position: relative;
-      z-index: 1000;
-      opacity: .4;
-}
+
 #app-cover
 {
-    grid-column: 2;
-    position: relative;
-    z-index: 1000;
+    grid-column: span 3;
+    
+    
+    
 }
 
 #clock-box, #info {
@@ -123,13 +119,6 @@ footer {
       margin-top: 1.2rem;
 }
 
-#music {
-      grid-column: 2;
-      position: relative;
-      z-index: 1000;
-      opacity: .4;
-}
-
 #mask {
       background-image: linear-gradient(to top, #6d44cc5d 0%, #f09cd880 100%);
       opacity: .42;
@@ -187,7 +176,10 @@ footer {
 		transform: scale(1);
 	}
 }
-
+*:focus
+{
+    outline: none;
+}
 
 
 
@@ -325,7 +317,7 @@ footer {
 {
     position: relative;
     height: 100%;
-    background-color: #fff;
+    background-color: #f1e2f0;
     box-shadow: 0 30px 80px #6565658f;
     border-radius: 15px;
     z-index: 2;
@@ -470,7 +462,7 @@ footer {
     width: 26px;
     height: 26px;
     padding: 25px;
-    background-color: #fff;
+    background-color: #f1e2f0;
     border-radius: 6px;
     cursor: pointer;
 }
@@ -478,7 +470,7 @@ footer {
 .button i
 {
     display: block;
-    color: #d6dee7;
+    color: #bfbac9;
     font-size: 26px;
     text-align: center;
     line-height: 1;
