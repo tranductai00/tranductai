@@ -33,8 +33,14 @@ h1 {
       grid-row-gap: 10px;
       margin-top: 3.6rem;
 }
-
-#app-cover {
+#music {
+      grid-column: 2;
+      position: relative;
+      z-index: 1000;
+      opacity: .4;
+}
+#app-cover
+{
  grid-column: 2;
     position: relative;
     z-index: 1000;
