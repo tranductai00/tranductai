@@ -37,12 +37,12 @@ h1 {
 
 #app-cover
 {
-    position: absolute;
-    top: 100%;
+    grid-column: span 3;
     right: 0;
     left: 0;
     width: 100%;
     height: 100px;
+	margin: 0;
     
     
     
@@ -145,8 +145,8 @@ footer {
       }
 
       .avt {
-            width: 120px;
-            height: 120px;
+            width: 150px;
+            height: 150px;
       }
 
       #info .one, #info .two{
